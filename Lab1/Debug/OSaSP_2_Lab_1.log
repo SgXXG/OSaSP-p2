@@ -1,0 +1,10 @@
+﻿  EntryPoint.c
+D:\!Studing\3 Course\5 Sem\ОСиСП\Лаба1\Лаба1\EntryPoint.c(45,41): warning C4133: функция: несовместимые типы - из "char *" в "LPCWSTR"
+D:\!Studing\3 Course\5 Sem\ОСиСП\Лаба1\Лаба1\EntryPoint.c(57,45): warning C4133: функция: несовместимые типы - из "unsigned short [10]" в "char *"
+D:\!Studing\3 Course\5 Sem\ОСиСП\Лаба1\Лаба1\EntryPoint.c(58,60): warning C4133: функция: несовместимые типы - из "unsigned short [17]" в "char *"
+D:\!Studing\3 Course\5 Sem\ОСиСП\Лаба1\Лаба1\EntryPoint.c(59,47): warning C4133: функция: несовместимые типы - из "unsigned short [9]" в "char *"
+D:\!Studing\3 Course\5 Sem\ОСиСП\Лаба1\Лаба1\EntryPoint.c(101,14): warning C4101: ps: неиспользованная локальная переменная
+D:\!Studing\3 Course\5 Sem\ОСиСП\Лаба1\Лаба1\EntryPoint.c(103,9): warning C4101: hBmp: неиспользованная локальная переменная
+D:\!Studing\3 Course\5 Sem\ОСиСП\Лаба1\Лаба1\EntryPoint.c(102,6): warning C4101: hDC: неиспользованная локальная переменная
+D:\!Studing\3 Course\5 Sem\ОСиСП\Лаба1\Лаба1\EntryPoint.c(131): warning C4716: Cls_OnCreate: должна возвращать значение
+  OSaSP_2_Lab_1.vcxproj -> D:\!Studing\3 Course\5 Sem\ОСиСП\Лаба1\Лаба1\Debug\OSaSP_2_Lab_1.exe
