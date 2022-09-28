@@ -4,8 +4,8 @@
 #define STEP 5
 #define IMAGE_SIZE 100
 #define WINDOW_STYLE (WS_VISIBLE | WS_OVERLAPPEDWINDOW)
-#define WINDOW_WIDTH 1065
-#define WINDOW_HEIGHT 650
+#define WINDOW_WIDTH 1000
+#define WINDOW_HEIGHT 600
 #define FIRST_TIMER 1
 
 typedef struct _Image

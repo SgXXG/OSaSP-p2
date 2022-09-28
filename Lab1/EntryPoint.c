@@ -12,7 +12,7 @@ HDC spriteImageBlack;
 HDC spriteImage;
 HDC bckImage;
 HWND hWnd;
-Image image = { 0, 0 , 0, 0};
+Image image = { 0, 0, 0, 0};
 
 BOOL isUp = FALSE, isLeft = FALSE, isDown = FALSE, isRight = FALSE;
 int rightAccel = 0 , leftAccel = 0, upAccel = 0, downAccel = 0;
@@ -51,12 +51,13 @@ HDC LoadBitmapDC(HWND hwnd, char* fileName)
 	return resultDC;
 }
 
-
 void Init(HWND hwnd)
 {
-	bckImage = LoadBitmapDC(hwnd, L"Back.bmp\0");
-	spriteImageBlack = LoadBitmapDC(hwnd, L"blackSprite.bmp\0");
+	bckImage = LoadBitmapDC(hwnd, L"Back.bmp");
+	spriteImageBlack = LoadBitmapDC(hwnd, L"blackSprite.bmp");
+	//spriteImage = LoadBitmapDC(hwnd, L"1.bmp");
 	spriteImage = LoadBitmapDC(hwnd, L"cat.bmp\0");
+	//spriteImage = LoadBitmapDC(hwnd, L"rectangle.bmp\0");
 }
 
 void Draw()
@@ -116,8 +117,6 @@ LRESULT CALLBACK MyWindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam
 	}
 	return DefWindowProc(hWnd, uMsg, wParam, lParam);
 }
-
-
 
 void Cls_OnDestroy(HWND hwnd)
 {
@@ -239,20 +238,20 @@ void Cls_OnTimer(HWND hwnd, UINT id) {
 		image.yoriginDest += (-upAccel + downAccel);
 
 		if (image.xoriginDest < 0) {
-			rightAccel += (int)(leftAccel*0.8);
+			rightAccel += (int)(leftAccel*0.6);
 			leftAccel = 0;
 		}
 		else if (image.xoriginDest > rcClient.right * 10 - IMAGE_SIZE * 10) {
-			leftAccel += (int)(rightAccel * 0.8);
+			leftAccel += (int)(rightAccel * 0.6);
 			rightAccel = 0;
 		}
 
 		if (image.yoriginDest < 0) {
-			downAccel += (int)(upAccel * 0.8);
+			downAccel += (int)(upAccel * 0.6);
 			upAccel = 0;
 		}
 		else if (image.yoriginDest > rcClient.bottom * 10 - IMAGE_SIZE * 10) {
-			upAccel += (int)(downAccel * 0.8);
+			upAccel += (int)(downAccel * 0.6);
 			downAccel = 0;
 		}
 
