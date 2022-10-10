@@ -48,7 +48,7 @@ int APIENTRY WinMain(HINSTANCE hInstance,
 
 	RegisterClassEx(&wcex);
 
-	hWnd = CreateWindow("MainClass", "Laba2",
+	hWnd = CreateWindow("MainClass", "Lab 2",
 		WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, 0,
 		CW_USEDEFAULT, 0, NULL, NULL, hInstance, NULL);
 
