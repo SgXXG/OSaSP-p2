@@ -75,7 +75,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message,
 	case WM_GETMINMAXINFO:
 	{
 		MINMAXINFO* pInfo = (MINMAXINFO*)lParam;
-		POINT ptMin = { 500, 500 }, ptMax = { 1920, 1080 };
+		POINT ptMin = { 600, 600 }, ptMax = { 1920, 1080 };
 		pInfo->ptMinTrackSize = ptMin;
 		pInfo->ptMaxTrackSize = ptMax;
 		return 0;
@@ -100,10 +100,10 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message,
 					WS_CHILD | WS_BORDER | WS_VISIBLE | ES_MULTILINE, j * windowWidth, i * windowHeight,
 					windowWidth, windowHeight, hWnd, (HMENU)(int)(ID_FIRSTCHILD + i*M + j), hInst, NULL);
 				Table[i][j]._windowHeight = 50;
-				Table[i][j].text = (char*)(malloc(1000));
+				Table[i][j].text = (char*)(malloc(100));
 				/*int count = rand() % 200;
 				char* str = GenerateString(count);*/
-				strcpy_s(Table[i][j].text, 1000, "hello");
+				strcpy_s(Table[i][j].text, 100, "hello");
 
 				SetWindowText(Table[i][j].window, Table[i][j].text);
 				ShowWindow(Table[i][j].window, SW_NORMAL);
@@ -177,11 +177,11 @@ void UpdateText(HWND hwnd) {
 	
 	for (int j = 0; j < N; j++) {
 		Table[newI][j]._windowHeight = DrawText(hdc, Table[newI][j].text, strlen(Table[newI][j].text),
-			&rcChildRect, DT_VCENTER | DT_EDITCONTROL | DT_WORDBREAK | DT_NOCLIP | DT_CALCRECT) + 20;
+			&rcChildRect, DT_VCENTER | DT_EDITCONTROL | DT_WORDBREAK | DT_NOCLIP | DT_CALCRECT) * 1.1;
 	}
 	
 	if (Table[newI][newJ].text[strlen(Table[newI][newJ].text) - 1] == '\n') {
-		Table[newI][newJ]._windowHeight += 20;
+		Table[newI][newJ]._windowHeight *= 1.009;
 	}
 	
 	int maxHeight = 0;
@@ -201,7 +201,7 @@ void UpdateText(HWND hwnd) {
 		}
 		
 		for (int j = 0; j < N; j++) {
-			SetWindowPos(Table[i][j].window, NULL, j * windowWidth, cy,
+			SetWindowPos(Table[i][j].window, NULL, j * windowWidth, cy-1,
 				windowWidth, Table[i][j]._windowHeight, SWP_SHOWWINDOW);
 		}
 	}
