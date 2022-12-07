@@ -1,9 +1,0 @@
-﻿  Main.c
-E:\5 сем\ОСиСП\Laba2\Laba2\Main.c(7,34): warning C4028: формальный параметр 3 отличается от объявления
-E:\5 сем\ОСиСП\Laba2\Laba2\Main.c(20,40): warning C4133: =: несовместимые типы - из "char [16]" в "LPCWSTR"
-E:\5 сем\ОСиСП\Laba2\Laba2\Main.c(27,1): warning C4133: функция: несовместимые типы - из "char [16]" в "LPCWSTR"
-E:\5 сем\ОСиСП\Laba2\Laba2\Main.c(27,1): warning C4133: функция: несовместимые типы - из "char [14]" в "LPCWSTR"
-E:\5 сем\ОСиСП\Laba2\Laba2\Main.c(44,35): warning C4133: функция: несовместимые типы - из "char [14]" в "LPCWSTR"
-E:\5 сем\ОСиСП\Laba2\Laba2\Main.c(44,46): warning C4133: функция: несовместимые типы - из "char [8]" в "LPCWSTR"
-MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
-E:\5 сем\ОСиСП\Laba2\x64\Debug\Laba2.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

@@ -1,8 +1,0 @@
-﻿  Main.c
-D:\!Studing\3 Course\5 Sem\ОСиСП\Лаба2\Laba2\Main.c(69,13): warning C4101: wcexChild: неиспользованная локальная переменная
-D:\!Studing\3 Course\5 Sem\ОСиСП\Лаба2\Laba2\Main.c(71,7): warning C4101: rcChild: неиспользованная локальная переменная
-D:\!Studing\3 Course\5 Sem\ОСиСП\Лаба2\Laba2\Main.c(180,88): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-D:\!Studing\3 Course\5 Sem\ОСиСП\Лаба2\Laba2\Main.c(184,38): warning C4244: *=: преобразование "double" в "int", возможна потеря данных
-D:\!Studing\3 Course\5 Sem\ОСиСП\Лаба2\Laba2\Main.c(166,7): warning C4101: size: неиспользованная локальная переменная
-D:\!Studing\3 Course\5 Sem\ОСиСП\Лаба2\Laba2\Main.c(146): warning C4172: возвращение адреса локальной или временной переменной : s
-  Laba2.vcxproj -> D:\!Studing\3 Course\5 Sem\ОСиСП\Лаба2\Debug\Laba2.exe

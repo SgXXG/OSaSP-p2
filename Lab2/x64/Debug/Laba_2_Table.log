@@ -1,0 +1,5 @@
+﻿  Laba_2_Table.cpp
+D:\!Studing\3 Course\5 Sem\OSaSP\Laba_2_Table\Laba_2_Table\Laba_2_Table.cpp(227,17): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+D:\!Studing\3 Course\5 Sem\OSaSP\Laba_2_Table\Laba_2_Table\Laba_2_Table.cpp(281,30): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\!Studing\3 Course\5 Sem\OSaSP\Laba_2_Table\Laba_2_Table\Laba_2_Table.cpp(289,30): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Laba_2_Table.vcxproj -> D:\!Studing\3 Course\5 Sem\OSaSP\Laba_2_Table\Laba_2_Table\x64\Debug\Laba_2_Table.exe
