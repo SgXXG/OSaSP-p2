@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  ReplaceString.cpp
+D:\University\Term_5\OSiSP\Laba_3_DLL\DllInjection\DllInjection\ReplaceString.cpp(100,1): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "pch.h"" в источник.
+  dllmain.cpp
+D:\University\Term_5\OSiSP\Laba_3_DLL\DllInjection\InjectableDll\dllmain.cpp(12,9): error C3861: ReplaceString: идентификатор не найден
+  Создание кода...

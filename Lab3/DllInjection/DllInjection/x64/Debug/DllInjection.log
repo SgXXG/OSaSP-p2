@@ -1,0 +1,5 @@
+﻿  DllInjection.cpp
+D:\University\Term_5\OSiSP\Laba_3_DLL\DllInjection\DllInjection\DllInjection.cpp(57,9): warning C4101: remThread: неиспользованная локальная переменная
+D:\University\Term_5\OSiSP\Laba_3_DLL\DllInjection\DllInjection\DllInjection.cpp(56,9): warning C4101: baseAddr: неиспользованная локальная переменная
+D:\University\Term_5\OSiSP\Laba_3_DLL\DllInjection\DllInjection\DllInjection.cpp(55,9): warning C4101: loadLibAddr: неиспользованная локальная переменная
+  DllInjection.vcxproj -> D:\University\Term_5\OSiSP\Laba_3_DLL\DllInjection\x64\Debug\DllInjection.exe
