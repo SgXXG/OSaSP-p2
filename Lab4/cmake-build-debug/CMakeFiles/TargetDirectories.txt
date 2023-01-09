@@ -1,0 +1,3 @@
+D:/!Studing/3 Course/5 Sem/OSaSP/Laba4/cmake-build-debug/CMakeFiles/Laba4.dir
+D:/!Studing/3 Course/5 Sem/OSaSP/Laba4/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/!Studing/3 Course/5 Sem/OSaSP/Laba4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
