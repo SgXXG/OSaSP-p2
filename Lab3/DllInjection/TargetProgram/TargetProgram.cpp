@@ -3,6 +3,8 @@
 #include <vector>
 #include <tlhelp32.h>
 
+#include "../../ReplaceString/ReplaceString/ReplaceString.h"
+
 using namespace std;
 
 int main()

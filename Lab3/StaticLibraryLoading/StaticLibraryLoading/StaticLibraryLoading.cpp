@@ -10,7 +10,7 @@ int main()
 	cout << "String before replace:" << endl;
 	cout << line.c_str() << endl;
 	
-	ReplaceString(line.c_str(), "Loh123");
+	ReplaceString(line.c_str(), "Privet12");
 
 	cout << "String after replace:" << endl;
 	cout << line.c_str() << endl;
